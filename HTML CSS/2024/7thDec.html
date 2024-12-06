@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning GitHub Forks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #0366d6;
+        }
+        .steps {
+            margin: 20px 0;
+        }
+        .steps li {
+            margin: 10px 0;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning GitHub Forks</h1>
+    <p>Forking is a key feature of GitHub that allows you to create your own copy of someone else's repository. Here's how you can learn it step by step:</p>
+    
+    <div class="steps">
+        <ol>
+            <li>
+                <strong>Navigate to the Repository:</strong> Find a repository you want to fork on GitHub. For example, visit 
+                <a href="https://github.com" target="_blank">GitHub</a>.
+            </li>
+            <li>
+                <strong>Click the Fork Button:</strong> On the top-right corner of the repository page, you'll find a "Fork" button. Click it to create a copy of the repository under your GitHub account.
+            </li>
+            <li>
+                <strong>Clone Your Fork:</strong> Go to your forked repository and click "Code" to copy the repository's URL. Then, use the following command in your terminal to clone it locally:
+                <pre><code>git clone [your-repo-url]</code></pre>
+            </li>
+            <li>
+                <strong>Make Changes:</strong> Modify the code locally and commit the changes using:
+                <pre><code>git add .<br>git commit -m "Your changes"</code></pre>
+            </li>
+            <li>
+                <strong>Push Changes:</strong> Push the changes to your forked repository using:
+                <pre><code>git push origin main</code></pre>
+            </li>
+            <li>
+                <strong>Create a Pull Request:</strong> Go back to the original repository and submit a pull request to propose your changes.
+            </li>
+        </ol>
+    </div>
+
+    <p>By forking and contributing to repositories, you can learn and collaborate with the open-source community effectively!</p>
+
+    <div class="footer">
+        <p>&copy; 2024 Learn GitHub | Made for aspiring developers</p>
+    </div>
+</body>
+</html>
